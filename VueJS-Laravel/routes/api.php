@@ -16,3 +16,4 @@ use Illuminate\Http\Request;
 Route::get('v1/user', 'API\v1\User\GetController');
 Route::post('v1/user', 'API\v1\User\AddController');
 Route::put('v1/user/{id}', 'API\v1\User\UpdateController');
+Route::delete('v1/user/{id}', 'API\v1\User\DeleteController');

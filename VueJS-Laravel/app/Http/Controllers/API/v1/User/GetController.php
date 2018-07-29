@@ -10,6 +10,6 @@ class GetController extends Controller
 {
     public function __invoke(Request $request)
     {
-    	return User::all()->paginate(10);
+    	return User::select()->paginate(10);
     }
 }
